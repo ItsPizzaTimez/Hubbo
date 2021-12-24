@@ -1,0 +1,206 @@
+body {
+    font-family: Century Gothic;
+    font-size: calc(1.1875rem);
+}
+
+
+/* ----------------------------------------- */
+
+#HubboHeader {
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 15vw;
+    margin: 0 auto;
+    padding-top: 1vw
+}
+
+
+/* ----------------------------------------- */
+
+.btn,
+.btn:hover {
+    background-color: rgb(200, 200, 200);
+    color: black;
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25%;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    transition: transform 256ms;
+    font-size: 150%;
+}
+
+.btn:hover {
+    transform: translateY(-5%)
+}
+
+
+/* ----------------------------------------- */
+
+.cadrejeux1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------------------------------- */
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* ----------------------------------------- */
+
+.txtindex {
+    display: flex;
+    text-align: center;
+}
+
+
+/* ----------------------------------------- */
+
+.txtindexjeux {
+    display: flex;
+    text-align: left;
+}
+
+
+/* ----------------------------------------- */
+
+.lienteljeux,
+.lienteljeux:hover {
+    color: black;
+}
+
+.lienteljeux:hover {
+    color: black;
+    cursor: not-allowed;
+}
+
+
+/* ----------------------------------------- */
+
+.Hubbogithub,
+.Hubbogithub:hover,
+.Hubbogithub::after {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    transition: transform 256ms;
+}
+
+.Hubbogithub::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: black;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+    bottom: 0
+}
+
+.Hubbogithub:hover::after {
+    transform: scale(1);
+}
+
+.Hubbogithub:hover {
+    color: black;
+    text-decoration: line;
+    transform: translateY(-5%)
+}
+
+
+/* ----------------------------------------- */
+
+.Credits {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ----------------------------------------- */
+
+.IciHugo::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: black;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+    bottom: 0
+}
+
+.IciHugo,
+.IciHugo:hover,
+.IciHugo::after {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    transition: transform 256ms;
+}
+
+.IciHugo:hover {
+    color: black;
+    text-decoration: none;
+    transform: translateY(-5%);
+}
+
+.IciHugo:hover::after {
+    transform: scale(1);
+}
+
+
+/* ----------------------------------------- */
+
+.Te0lexx,
+.Te0lexx:hover,
+.Te0lexx::after {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    transition: transform 256ms;
+}
+
+.Te0lexx:hover {
+    color: black;
+    text-decoration: none;
+    transform: translateY(-5%)
+}
+
+.Te0lexx::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: black;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+    bottom: 0
+}
+
+.Te0lexx:hover::after {
+    transform: scale(1);
+}
+
+
+/* ----------------------------------------- */
